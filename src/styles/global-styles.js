@@ -8,8 +8,8 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
         /* background: yellow; */
-        ${({ theme }) => css `
-            background: ${theme.colors.mainBg}
+        ${({ theme }) => css`
+          background: ${theme.colors.mainBg};
         `}
     }
 `;
