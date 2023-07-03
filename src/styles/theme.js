@@ -5,9 +5,11 @@ export const theme = {
     white: "#FFF",
     mediumGray: "#DDD",
   },
-  fonts: {
-    default: "'Open Sans', sans-serif",
-    secondary: "'Montserrat', sans-serif",
+  font: {
+    family: {
+      default: "'Open Sans', sans-serif",
+      secondary: "'Montserrat', sans-serif",
+    },
   },
   sizes: {},
 };
