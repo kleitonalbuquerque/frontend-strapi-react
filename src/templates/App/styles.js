@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     color: ${props.color};
     padding: 1rem;
   `} */
-  ${({ theme }) => css`
+  /* ${({ theme }) => css`
     background: ${theme.colors.secondaryBg};
-  `}
+  `} */
 `;

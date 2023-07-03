@@ -1,3 +1,4 @@
+import { Heading } from "../../components/Heading";
 import * as Styled from "./styles";
 
 function Home() {
@@ -5,7 +6,7 @@ function Home() {
     <div className="App">
       {/* <Styled.Wrapper background="green" color="white"> */}
       <Styled.Wrapper>
-        <h1>Hello!</h1>
+        <Heading>Configurando o Storybook - Parte 1</Heading>
       </Styled.Wrapper>
     </div>
   );
